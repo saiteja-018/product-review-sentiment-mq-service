@@ -69,6 +69,12 @@ docker-compose up -d rabbitmq db
 npm run test:integration
 ```
 
+To run the full test suite including integration tests:
+
+```
+RUN_INTEGRATION=true npm test
+```
+
 Or inside the app container:
 
 ```
